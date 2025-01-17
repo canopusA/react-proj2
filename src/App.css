@@ -1,0 +1,85 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.main {
+  width: 60%;
+}
+
+.details {
+  width: 35%;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.task-form {
+  margin: 20px 0;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-form input,
+.task-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #0056b3;
+}
+
+
+.filter-buttons button {
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.filter-buttons button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.filter-buttons button:hover {
+  background-color: #0056b3;
+  color: white;
+}
